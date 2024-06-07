@@ -8,4 +8,11 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+
+    // alisa for resources
+    resolve: {
+        alias: {
+        '~resources': '/resources/'
+        }
+    },
 });
